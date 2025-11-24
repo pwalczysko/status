@@ -7,14 +7,12 @@
     - repo: ome/bio-formats-examples
       badges: travis
 
-- name: OME-NGFF repos
+- name: OME-NGFF
 
   packages:
     - repo: ome/ngff
-      badges: travis
 
-    - repo: ome/ome-zarr-js
-      badges: travis
+    - repo: BioNGFF/ome-zarr.js
 
 - name: OMERO Java packages
 
@@ -57,6 +55,8 @@
 
     - repo: ome/omero-cli-render
       badges: travis, pypi
+
+    - repo: German-BioImaging/omero-rdf
 
 - name: Training packages
 

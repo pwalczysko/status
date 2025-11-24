@@ -1,4 +1,4 @@
-generated_at: '2025-11-24T19:16:51.094043Z'
+generated_at: '2025-11-24T19:43:21.425782Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -50,6 +50,42 @@ sections:
       - maven
       updated_at: '2025-11-21T08:42:43Z'
     user: ome
+- name: OME-NGFF
+  packages:
+  - last_commit:
+      author: joshmoore
+      date: '2025-11-20'
+      url: https://github.com/ome/ngff/commit/e5b2f2e9e43cd5ddf9c5adc7e70216ea1f255a3e
+    name: ngff
+    repo: ome/ngff
+    repo_info:
+      created_at: '2020-11-17T14:55:39Z'
+      description: Next-generation file format (NGFF) specifications for storing bioimaging
+        data in the cloud.
+      open_issues: 135
+      size: 14215
+      topics:
+      - bioimaging
+      - cloud
+      - data-science
+      - file-formats
+      - spec
+      updated_at: '2025-11-20T08:27:39Z'
+    user: ome
+  - last_commit:
+      author: will-moore
+      date: '2025-11-24'
+      url: https://github.com/BioNGFF/ome-zarr.js/commit/32050e65289e98b4a8af9a0ccf8226ff95467e8a
+    name: ome-zarr.js
+    repo: BioNGFF/ome-zarr.js
+    repo_info:
+      created_at: '2025-02-05T14:38:10Z'
+      description: Some JavaScript utils for simple rendering of OME-Zarr images
+      open_issues: 9
+      size: 1930
+      topics: []
+      updated_at: '2025-11-24T09:17:35Z'
+    user: BioNGFF
 - name: OMERO Java packages
   packages:
   - badges: travis
@@ -283,6 +319,21 @@ sections:
       - python
       updated_at: '2024-12-04T09:34:29Z'
     user: ome
+  - last_commit:
+      author: joshmoore
+      date: '2025-09-02'
+      url: https://github.com/German-BioImaging/omero-rdf/commit/5463f129fd790b1ca85246f73c12a6f2e7ad4fff
+    name: omero-rdf
+    repo: German-BioImaging/omero-rdf
+    repo_info:
+      created_at: '2022-07-27T15:46:33Z'
+      description: A plugin for exporting RDF from OMERO
+      open_issues: 29
+      size: 99
+      topics:
+      - nfdi4bioimage
+      updated_at: '2025-10-24T07:07:09Z'
+    user: German-BioImaging
 - name: Training packages
   packages:
   - badges: travis, rtd
