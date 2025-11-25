@@ -1,4 +1,4 @@
-generated_at: '2025-11-24T20:00:04.447597Z'
+generated_at: '2025-11-25T06:18:30.339622Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -41,7 +41,7 @@ sections:
       created_at: '2013-11-11T14:42:35Z'
       description: Examples of usage of the Bio-Formats API
       open_issues: 2
-      size: 404
+      size: 406
       topics:
       - api
       - bio-formats
@@ -248,7 +248,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 70
+      open_issues: 71
       size: 11975
       topics:
       - component
