@@ -14,12 +14,11 @@
 <body>
   <div id="wrapper">
     <h1>OME Project Dashboard</h1>
-    <p class="subtitle">Daily snapshot of core repositories with quick metadata.</p>
-    <p class="subtitle">OME-owned and OME-related projects.</p>
-
-    <p class="subtitle">For workflows, see the <a
+    <p class="subtitle">OME-owned and OME-related projects (<a href="https://github.com/ome/status"
+        target="_blank">source</a>). For workflows, see the <a
         href="https://github.com/ome/ome-resources-monitor/blob/main/logs/latest.md"
-        target="_blank">ome-resource-monitor</a>.</p>
+        target="_blank">ome-resource-monitor</a>.
+    </p>
     <p id="generated-at" class="meta-cell"></p>
     <div id="error" class="error-note" style="display:none;"></div>
     <div id="sections">
@@ -306,7 +305,15 @@
       function render(data) {
         clearError();
         sectionsEl.innerHTML = '';
-        generatedAtEl.textContent = data.generated_at ? 'Generated at ' + data.generated_at : '';
+        if (data.generated_at) {
+          const d = new Date(data.generated_at);
+          const formatted = Number.isNaN(d.getTime())
+            ? data.generated_at
+            : d.toISOString().slice(0, 16).replace('T', ' ');
+          generatedAtEl.textContent = 'Generated at ' + formatted;
+        } else {
+          generatedAtEl.textContent = '';
+        }
         (data.sections || []).forEach(section => {
           sectionsEl.appendChild(buildSection(section));
         });
