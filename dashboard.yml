@@ -42,6 +42,7 @@
     - repo: ome/omero-marshal
     - repo: ome/omero-cli-render
     - repo: ome/omero-figure
+    - repo: ome/omero-scripts
     - repo: TheJacksonLaboratory/ezomero
 
 - name: OME Linked Data

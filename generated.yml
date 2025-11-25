@@ -1,4 +1,4 @@
-generated_at: '2025-11-25T12:41:14.193791Z'
+generated_at: '2025-11-25T13:16:38.457463Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -46,7 +46,7 @@ sections:
       created_at: '2013-11-11T14:42:35Z'
       description: Examples of usage of the Bio-Formats API
       open_issues: 0
-      size: 406
+      size: 407
       stargazers_count: 13
       topics:
       - api
@@ -382,7 +382,7 @@ sections:
     repo_info:
       created_at: '2018-12-12T10:25:49Z'
       description: Gradle project containing common utilities for OMERO
-      open_issues: 5
+      open_issues: 4
       size: 1888
       stargazers_count: 1
       topics:
@@ -427,7 +427,7 @@ sections:
     repo_info:
       created_at: '2018-12-13T09:10:43Z'
       description: Gradle project containing main server logic for OMERO
-      open_issues: 40
+      open_issues: 39
       size: 6085
       stargazers_count: 7
       topics:
@@ -614,6 +614,28 @@ sections:
       - omero
       - webapp
       updated_at: '2025-11-25T11:20:35Z'
+    user: ome
+  - last_commit:
+      author: jburel
+      date: '2025-09-09'
+      url: https://github.com/ome/omero-scripts/commit/03b9116196e1a799dd18a666559613d912be01a5
+    last_release:
+      date: '2025-06-16'
+      tag_name: v5.9.1
+      url: https://github.com/ome/omero-scripts/releases/tag/v5.9.1
+    name: omero-scripts
+    repo: ome/omero-scripts
+    repo_info:
+      created_at: '2012-07-02T22:16:36Z'
+      description: Core OMERO Scripts
+      open_issues: 24
+      size: 1920
+      stargazers_count: 15
+      topics:
+      - omero
+      - python
+      - scripts
+      updated_at: '2025-09-10T15:37:17Z'
     user: ome
   - last_commit:
       author: erickmartins
