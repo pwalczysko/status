@@ -36,6 +36,7 @@
       const sectionsEl = document.getElementById('sections');
       const generatedAtEl = document.getElementById('generated-at');
       const errorEl = document.getElementById('error');
+      let logos = {};
 
       const headers = ['Owner', 'Name', 'Issues/PRs', 'Created', 'Last commit', 'Last release', 'Topics'];
 
@@ -77,6 +78,24 @@
         return date.toISOString().slice(0, 10);
       }
 
+      async function fetchYaml(path, { optional = false } = {}) {
+        const response = await fetch(path);
+        if (!response.ok) {
+          if (optional) return null;
+          throw new Error('Request failed with status ' + response.status);
+        }
+        const text = await response.text();
+        return jsyaml.load(text);
+      }
+
+      async function loadLogos() {
+        try {
+          const data = await fetchYaml('logos.yml', { optional: true });
+          logos = (data && typeof data === 'object') ? data : {};
+        } catch (err) {
+          logos = {};
+        }
+      }
 
       function createTextCell(value, className, sortValue) {
         const td = document.createElement('td');
@@ -123,18 +142,12 @@
         const link = document.createElement('a');
         link.href = 'https://github.com/' + owner;
         const ownerKey = (owner && owner.toLowerCase) ? owner.toLowerCase() : owner;
-        if (ownerKey === 'ome') {
+        const logoUrl = logos[ownerKey];
+        if (logoUrl) {
           const img = document.createElement('img');
-          img.alt = 'OME';
-          img.src = 'https://raw.githubusercontent.com/sbesson/artwork/main/ome/ome-main-nav.svg';
+          img.alt = owner;
+          img.src = logoUrl;
           img.style.height = '1em';
-          img.style.verticalAlign = 'bottom';
-          link.appendChild(img);
-        } else if (ownerKey === 'german-bioimaging') {
-          const img = document.createElement('img');
-          img.alt = 'German BioImaging';
-          img.src = 'https://gerbi-gmb.de/wp-content/uploads/2021/06/GerBI_Logo_396px-200x65.png.pagespeed.ce.DogekpsSOi.png';
-          img.style.height = '1.1em';
           img.style.verticalAlign = 'bottom';
           link.appendChild(img);
         } else {
@@ -302,15 +315,11 @@
 
       async function loadDashboard() {
         try {
-          const response = await fetch('generated.yml');
-          if (!response.ok) {
-            throw new Error('Request failed with status ' + response.status);
-          }
-          const yamlText = await response.text();
-          const parsed = jsyaml.load(yamlText);
+          const parsed = await fetchYaml('generated.yml');
           if (!parsed || !parsed.sections) {
             throw new Error('generated.yml is missing required fields');
           }
+          await loadLogos();
           render(parsed);
         } catch (err) {
           sectionsEl.innerHTML = '';
