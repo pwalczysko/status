@@ -8,6 +8,7 @@
 # ///
 
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Dict, List, Optional
 from yaml import load, dump, Loader
@@ -29,6 +30,12 @@ session.headers.update(
 token = os.getenv("GITHUB_TOKEN")
 if token:
     session.headers["Authorization"] = f"Bearer {token}"
+
+
+def build_session() -> requests.Session:
+    new_session = requests.Session()
+    new_session.headers.update(session.headers)
+    return new_session
 
 
 def format_date(iso_timestamp: str) -> str:
@@ -104,27 +111,41 @@ def fetch_last_release_info(
     }
 
 
+def process_package(package: dict) -> None:
+    """
+    Populate metadata for a single package. Runs in worker threads.
+    """
+    local_session = build_session()
+    package["user"], package["name"] = package["repo"].split("/")
+
+    repo_info = fetch_repo_info(package["user"], package["name"], local_session)
+    if repo_info:
+        package["repo_info"] = repo_info
+    else:
+        package["error"] = True
+
+    last_commit_info = fetch_last_commit_info(
+        package["user"], package["name"], local_session
+    )
+    if last_commit_info:
+        package["last_commit"] = last_commit_info
+
+    last_release_info = fetch_last_release_info(
+        package["user"], package["name"], local_session
+    )
+    if last_release_info:
+        package["last_release"] = last_release_info
+
+
+all_packages: List[dict] = []
 for section in config:
-    for package in tqdm(section["packages"]):
-        package["user"], package["name"] = package["repo"].split("/")
+    all_packages.extend(section["packages"])
 
-        repo_info = fetch_repo_info(package["user"], package["name"], session)
-        if repo_info:
-            package["repo_info"] = repo_info
-        else:
-            package["error"] = True
-
-        last_commit_info = fetch_last_commit_info(
-            package["user"], package["name"], session
-        )
-        if last_commit_info:
-            package["last_commit"] = last_commit_info
-
-        last_release_info = fetch_last_release_info(
-            package["user"], package["name"], session
-        )
-        if last_release_info:
-            package["last_release"] = last_release_info
+with ThreadPoolExecutor(max_workers=4) as executor:
+    futures = [executor.submit(process_package, package) for package in all_packages]
+    for future in tqdm(as_completed(futures), total=len(futures)):
+        # re-raise any worker exceptions
+        future.result()
 
 snapshot = {
     "generated_at": datetime.utcnow().isoformat() + "Z",
