@@ -1,4 +1,4 @@
-generated_at: '2025-11-25T16:01:58.554286Z'
+generated_at: '2025-11-26T06:18:34.412329Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -70,16 +70,16 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 135
+      open_issues: 136
       size: 14215
-      stargazers_count: 142
+      stargazers_count: 143
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2025-11-25T15:27:04Z'
+      updated_at: '2025-11-26T03:33:05Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -262,8 +262,8 @@ sections:
     user: ome
   - last_commit:
       author: thewtex
-      date: '2025-11-24'
-      url: https://github.com/fideus-labs/ngff-zarr/commit/bf8bfd32f5d1ef5340c5981dbfcd83756ed1d335
+      date: '2025-11-25'
+      url: https://github.com/fideus-labs/ngff-zarr/commit/c4ae5bb194f8765973c2632c750ebe68c0665a2c
     last_release:
       date: '2025-11-24'
       tag_name: v0.20.0
@@ -275,7 +275,7 @@ sections:
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
       open_issues: 29
-      size: 8258
+      size: 8259
       stargazers_count: 55
       topics:
       - dask
@@ -285,7 +285,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2025-11-24T22:29:56Z'
+      updated_at: '2025-11-25T19:52:19Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -302,17 +302,17 @@ sections:
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
       open_issues: 10
-      size: 44714
-      stargazers_count: 30
+      size: 46582
+      stargazers_count: 31
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2025-11-25T15:10:16Z'
+      updated_at: '2025-11-25T22:53:08Z'
     user: BioVisionCenter
   - last_commit:
       author: LDeakin
-      date: '2025-10-27'
-      url: https://github.com/zarrs/ome_zarr_metadata/commit/a11f8bd7ed059004643606857059e1651aac2353
+      date: '2025-11-25'
+      url: https://github.com/zarrs/ome_zarr_metadata/commit/d83d1dbd3c3c1af0dd12e4eb83cae1e20ba9c05e
     last_release:
       date: '2025-08-29'
       tag_name: v0.2.5
@@ -323,7 +323,7 @@ sections:
       created_at: '2024-07-22T22:01:37Z'
       description: A Rust library for OME-Zarr (previously OME-NGFF) metadata
       open_issues: 4
-      size: 87
+      size: 89
       stargazers_count: 6
       topics:
       - ome
@@ -331,14 +331,14 @@ sections:
       - ome-zarr
       - rust
       - zarr
-      updated_at: '2025-11-25T15:09:01Z'
+      updated_at: '2025-11-25T21:50:21Z'
     user: zarrs
 - name: OMERO Java packages
   packages:
   - last_commit:
       author: sbesson
-      date: '2025-11-12'
-      url: https://github.com/ome/openmicroscopy/commit/7a39abd6045614ceae138a99f7c3fc7c468be4bd
+      date: '2025-11-25'
+      url: https://github.com/ome/openmicroscopy/commit/0763546fbc345dbc1bbcf1995bd9d631f5ba1567
     last_release:
       date: '2025-06-26'
       tag_name: v5.6.16
@@ -354,8 +354,8 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 29
-      size: 1985501
+      open_issues: 27
+      size: 1985513
       stargazers_count: 214
       topics:
       - database
@@ -364,7 +364,7 @@ sections:
       - omero
       - python
       - server
-      updated_at: '2025-11-12T06:06:44Z'
+      updated_at: '2025-11-25T19:22:52Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -404,7 +404,7 @@ sections:
     repo_info:
       created_at: '2018-12-12T10:25:49Z'
       description: Gradle project containing common utilities for OMERO
-      open_issues: 4
+      open_issues: 3
       size: 1888
       stargazers_count: 1
       topics:
@@ -449,7 +449,7 @@ sections:
     repo_info:
       created_at: '2018-12-13T09:10:43Z'
       description: Gradle project containing main server logic for OMERO
-      open_issues: 39
+      open_issues: 38
       size: 6085
       stargazers_count: 7
       topics:
@@ -511,8 +511,8 @@ sections:
   packages:
   - last_commit:
       author: sbesson
-      date: '2025-10-06'
-      url: https://github.com/ome/omero-py/commit/4a1712983d1f38d249c2b203f96a086cd4da37b8
+      date: '2025-11-25'
+      url: https://github.com/ome/omero-py/commit/b44120b5235b24db6dde315369ea1519bbeb30c1
     last_release:
       date: '2025-10-08'
       tag_name: v5.21.2
@@ -522,8 +522,8 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 70
-      size: 11975
+      open_issues: 68
+      size: 12012
       stargazers_count: 27
       topics:
       - component
@@ -531,7 +531,7 @@ sections:
       - omero
       - omero-py
       - python
-      updated_at: '2025-10-06T09:57:46Z'
+      updated_at: '2025-11-25T19:23:24Z'
     user: ome
   - last_commit:
       author: knabar
@@ -567,7 +567,7 @@ sections:
       created_at: '2019-08-05T15:05:22Z'
       description: OMERO.dropbox server for watching directories
       open_issues: 4
-      size: 465
+      size: 468
       stargazers_count: 2
       topics:
       - component
@@ -629,7 +629,7 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 73
+      open_issues: 74
       size: 8879
       stargazers_count: 19
       topics:
@@ -651,7 +651,7 @@ sections:
       created_at: '2012-07-02T22:16:36Z'
       description: Core OMERO Scripts
       open_issues: 20
-      size: 1920
+      size: 1935
       stargazers_count: 15
       topics:
       - omero
