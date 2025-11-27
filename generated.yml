@@ -1,4 +1,4 @@
-generated_at: '2025-11-26T06:18:34.412329Z'
+generated_at: '2025-11-27T06:18:44.739637Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -70,7 +70,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 136
+      open_issues: 137
       size: 14215
       stargazers_count: 143
       topics:
@@ -274,7 +274,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 29
+      open_issues: 28
       size: 8259
       stargazers_count: 55
       topics:
@@ -301,8 +301,8 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 10
-      size: 46582
+      open_issues: 9
+      size: 46613
       stargazers_count: 31
       topics:
       - ome-ngff
@@ -511,19 +511,19 @@ sections:
   packages:
   - last_commit:
       author: sbesson
-      date: '2025-11-25'
-      url: https://github.com/ome/omero-py/commit/b44120b5235b24db6dde315369ea1519bbeb30c1
+      date: '2025-11-26'
+      url: https://github.com/ome/omero-py/commit/9b806b60b815ac2590daa73f20db1cc207b93cd7
     last_release:
-      date: '2025-10-08'
-      tag_name: v5.21.2
-      url: https://github.com/ome/omero-py/releases/tag/v5.21.2
+      date: '2025-11-26'
+      tag_name: v5.21.3
+      url: https://github.com/ome/omero-py/releases/tag/v5.21.3
     name: omero-py
     repo: ome/omero-py
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 68
-      size: 12012
+      open_issues: 67
+      size: 12018
       stargazers_count: 27
       topics:
       - component
@@ -531,7 +531,7 @@ sections:
       - omero
       - omero-py
       - python
-      updated_at: '2025-11-25T19:23:24Z'
+      updated_at: '2025-11-26T11:07:02Z'
     user: ome
   - last_commit:
       author: knabar
@@ -579,22 +579,22 @@ sections:
     user: ome
   - last_commit:
       author: sbesson
-      date: '2025-10-01'
-      url: https://github.com/ome/omero-marshal/commit/a3dd99b825ad44c9beadc38a8ae8ba94a155f62c
+      date: '2025-11-26'
+      url: https://github.com/ome/omero-marshal/commit/3c49e72783509a1926b8e43c19274ce96528fb9f
     name: omero-marshal
     repo: ome/omero-marshal
     repo_info:
       created_at: '2015-10-20T12:43:20Z'
       description: OMERO marshalling infrastructure
-      open_issues: 9
-      size: 404
+      open_issues: 8
+      size: 407
       stargazers_count: 5
       topics:
       - marshalling
       - model
       - omero
       - pip
-      updated_at: '2025-10-01T07:41:40Z'
+      updated_at: '2025-11-26T17:33:34Z'
     user: ome
   - last_commit:
       author: jburel
@@ -639,8 +639,8 @@ sections:
     user: ome
   - last_commit:
       author: sbesson
-      date: '2025-11-25'
-      url: https://github.com/ome/omero-scripts/commit/87f4052bba3595bd6cd64d41866501d84d2814fb
+      date: '2025-11-26'
+      url: https://github.com/ome/omero-scripts/commit/0c7356acacce8767f1317bc04057d5ddf059a2db
     last_release:
       date: '2025-06-16'
       tag_name: v5.9.1
@@ -650,14 +650,14 @@ sections:
     repo_info:
       created_at: '2012-07-02T22:16:36Z'
       description: Core OMERO Scripts
-      open_issues: 20
-      size: 1935
+      open_issues: 18
+      size: 1942
       stargazers_count: 15
       topics:
       - omero
       - python
       - scripts
-      updated_at: '2025-11-25T15:51:23Z'
+      updated_at: '2025-11-26T08:47:05Z'
     user: ome
   - last_commit:
       author: erickmartins
