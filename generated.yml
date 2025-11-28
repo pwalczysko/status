@@ -1,4 +1,4 @@
-generated_at: '2025-11-27T06:18:44.739637Z'
+generated_at: '2025-11-28T06:18:33.674349Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -18,7 +18,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 174
+      open_issues: 175
       size: 280191
       stargazers_count: 406
       topics:
@@ -72,14 +72,14 @@ sections:
         data in the cloud.
       open_issues: 137
       size: 14215
-      stargazers_count: 143
+      stargazers_count: 144
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2025-11-26T03:33:05Z'
+      updated_at: '2025-11-27T11:14:54Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -120,9 +120,9 @@ sections:
       updated_at: '2025-09-29T09:30:36Z'
     user: ome
   - last_commit:
-      author: joshmoore
-      date: '2025-10-27'
-      url: https://github.com/ome/ome-zarr-py/commit/77e6d63ae46d865afad77b9290c23b321c75ffac
+      author: will-moore
+      date: '2025-11-28'
+      url: https://github.com/ome/ome-zarr-py/commit/88fca830c1c6145fd8e85ccc939ce13b884207a8
     last_release:
       date: '2025-08-22'
       tag_name: v0.12.2
@@ -141,7 +141,7 @@ sections:
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2025-11-19T00:48:50Z'
+      updated_at: '2025-11-28T06:02:59Z'
     user: ome
   - last_commit:
       author: dominikl
@@ -303,11 +303,11 @@ sections:
         workflows.
       open_issues: 9
       size: 46613
-      stargazers_count: 31
+      stargazers_count: 32
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2025-11-25T22:53:08Z'
+      updated_at: '2025-11-27T09:42:30Z'
     user: BioVisionCenter
   - last_commit:
       author: LDeakin
@@ -546,7 +546,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 149
+      open_issues: 151
       size: 26444
       stargazers_count: 22
       topics:
@@ -579,22 +579,26 @@ sections:
     user: ome
   - last_commit:
       author: sbesson
-      date: '2025-11-26'
-      url: https://github.com/ome/omero-marshal/commit/3c49e72783509a1926b8e43c19274ce96528fb9f
+      date: '2025-11-27'
+      url: https://github.com/ome/omero-marshal/commit/eb0e546bbef0d0668bb3a572acf486fd90a0f3fd
+    last_release:
+      date: '2025-11-27'
+      tag_name: v0.9.1
+      url: https://github.com/ome/omero-marshal/releases/tag/v0.9.1
     name: omero-marshal
     repo: ome/omero-marshal
     repo_info:
       created_at: '2015-10-20T12:43:20Z'
       description: OMERO marshalling infrastructure
-      open_issues: 8
-      size: 407
+      open_issues: 6
+      size: 415
       stargazers_count: 5
       topics:
       - marshalling
       - model
       - omero
       - pip
-      updated_at: '2025-11-26T17:33:34Z'
+      updated_at: '2025-11-27T10:31:21Z'
     user: ome
   - last_commit:
       author: jburel
@@ -699,7 +703,7 @@ sections:
     repo_info:
       created_at: '2022-07-27T15:46:33Z'
       description: A plugin for exporting RDF from OMERO
-      open_issues: 29
+      open_issues: 30
       size: 99
       stargazers_count: 15
       topics:
