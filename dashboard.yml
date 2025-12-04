@@ -73,3 +73,5 @@
     - repo: ome/ansible-role-omero-web
     - repo: ome/omero-deployment-examples
     - repo: ome/omero-web-docker
+    - repo: ome/omero-server-docker
+
