@@ -137,6 +137,38 @@ def fetch_last_release_info(
     }
 
 
+def fetch_disabled_inactive_workflows(
+    owner: str, repo: str, session: requests.Session
+) -> List[str]:
+    """
+    Return names/paths for workflows auto-disabled due to inactivity.
+    """
+    page = 1
+    disabled: List[str] = []
+    while True:
+        resp = session.get(
+            f"https://api.github.com/repos/{owner}/{repo}/actions/workflows",
+            params={"per_page": 100, "page": page},
+        )
+        if resp.status_code in (403, 404):
+            break
+        if not resp.ok:
+            break
+        data = resp.json() or {}
+        workflows = data.get("workflows") or []
+        for workflow in workflows:
+            if (workflow.get("state") or "").lower() == "disabled_inactivity":
+                label = workflow.get("name") or workflow.get("path") or str(
+                    workflow.get("id") or ""
+                )
+                if label:
+                    disabled.append(label)
+        if len(workflows) < 100:
+            break
+        page += 1
+    return disabled
+
+
 def process_package(package: dict) -> None:
     """
     Populate metadata for a single package. Runs in worker threads.
@@ -161,6 +193,12 @@ def process_package(package: dict) -> None:
     )
     if last_release_info:
         package["last_release"] = last_release_info
+
+    disabled_workflows = fetch_disabled_inactive_workflows(
+        package["user"], package["name"], local_session
+    )
+    if disabled_workflows:
+        package["disabled_workflows"] = disabled_workflows
 
 
 all_packages: List[dict] = []

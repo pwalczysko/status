@@ -126,6 +126,25 @@
         return 'https://avatars.githubusercontent.com/' + encodeURIComponent(owner);
       }
 
+      function buildActionsUrl(repo) {
+        if (!repo) return '';
+        return 'https://github.com/' + repo + '/actions';
+      }
+
+      function createDisabledScheduleIcon(disabledWorkflows, repo) {
+        const workflows = Array.isArray(disabledWorkflows) ? disabledWorkflows : [];
+        if (workflows.length === 0) return null;
+        const label = workflows.length ? workflows.join(', ') : 'workflows';
+        const actionsUrl = buildActionsUrl(repo);
+        const link = document.createElement('a');
+        link.className = 'status-icon status-warning status-icon-link';
+        link.textContent = '!';
+        link.href = actionsUrl || '#';
+        link.title = 'Scheduled workflows disabled due to inactivity: ' + label;
+        link.setAttribute('aria-label', link.title);
+        return link;
+      }
+
       function createTextCell(value, className, sortValue) {
         const td = document.createElement('td');
         if (className) td.className = className;
@@ -191,24 +210,26 @@
         return td;
       }
 
-      function createLastCommitCell(commit) {
+      function createLastCommitCell(commit, disabledWorkflows, repo) {
         const td = document.createElement('td');
         td.className = 'commit-cell';
-        const hasContent = commit && (commit.date || commit.url || commit.author);
+        const hasCommitContent = commit && (commit.date || commit.url || commit.author);
+        const hasDisabled = Array.isArray(disabledWorkflows) && disabledWorkflows.length > 0;
         const sortDate = commit && commit.date ? Date.parse(commit.date) : null;
         td.dataset.order = normalizeSortValue(sortDate);
-        if (!hasContent) {
+        if (!hasCommitContent && !hasDisabled) {
           td.appendChild(emptyMarker());
           return td;
         }
-        const dateClass = classifyEntryAge(commit.date);
+        const dateClass = classifyEntryAge(commit && commit.date);
         const dateDiv = document.createElement('div');
         dateDiv.className = 'commit-date';
         if (dateClass) {
           dateDiv.classList.add(dateClass);
         }
         const statusIcon = commit ? createStatusIcon(commit.status) : null;
-        if (commit.url) {
+        const disabledIcon = createDisabledScheduleIcon(disabledWorkflows, repo);
+        if (commit && commit.url) {
           const link = document.createElement('a');
           link.href = commit.url;
           link.textContent = formatDateMonth(commit.date) || 'commit';
@@ -217,17 +238,24 @@
           if (commit.author) tooltipBits.push('Author: ' + commit.author);
           link.title = tooltipBits.join(' • ');
           dateDiv.appendChild(link);
-        } else {
+        } else if (commit && commit.date) {
           dateDiv.textContent = formatDateMonth(commit.date) || 'commit';
+        } else {
+          dateDiv.textContent = '';
         }
         if (statusIcon) {
           dateDiv.appendChild(statusIcon);
         }
+        if (disabledIcon) {
+          dateDiv.appendChild(disabledIcon);
+        }
         const authorDiv = document.createElement('div');
         authorDiv.className = 'commit-actor';
-        authorDiv.textContent = commit.author ? 'by ' + commit.author : '';
+        authorDiv.textContent = commit && commit.author ? 'by ' + commit.author : '';
         td.appendChild(dateDiv);
-        td.appendChild(authorDiv);
+        if (commit && commit.author) {
+          td.appendChild(authorDiv);
+        }
         return td;
       }
 
@@ -302,7 +330,7 @@
         tr.appendChild(createTextCell(formatNumber(repoInfo.stargazers_count), 'meta-cell', Number(repoInfo.stargazers_count)));
         tr.appendChild(createTextCell(repoInfo.open_issues, 'meta-cell', Number(repoInfo.open_issues)));
         tr.appendChild(createTextCell(formatYear(repoInfo.created_at), 'meta-cell', Date.parse(repoInfo.created_at || '')));
-        tr.appendChild(createLastCommitCell(pkg.last_commit));
+        tr.appendChild(createLastCommitCell(pkg.last_commit, pkg.disabled_workflows, pkg.repo));
         tr.appendChild(createLastReleaseCell(pkg.last_release));
         tr.appendChild(createTopicsCell(repoInfo.topics));
         return tr;

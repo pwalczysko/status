@@ -112,7 +112,19 @@ a:hover {
   color: #9a6700;
 }
 
-.commit-date a {
+.status-warning {
+  color: #c28e00;
+}
+
+.status-icon-link {
+  text-decoration: none;
+}
+
+.status-icon-link:hover {
+  text-decoration: underline;
+}
+
+.commit-date a:not(.status-icon) {
   color: inherit;
 }
 
