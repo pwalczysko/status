@@ -1,4 +1,4 @@
-generated_at: '2025-12-10T06:35:13.185312Z'
+generated_at: '2025-12-11T06:35:50.006249Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -320,22 +320,22 @@ sections:
       status: SUCCESS
       url: https://github.com/BioVisionCenter/ngio/commit/ec3418565419629b26b0d51974d16b5ee5a16503
     last_release:
-      date: '2025-12-08'
-      tag_name: v0.5.0b1
-      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.0b1
+      date: '2025-12-10'
+      tag_name: v0.5.0b2
+      url: https://github.com/BioVisionCenter/ngio/releases/tag/v0.5.0b2
     name: ngio
     repo: BioVisionCenter/ngio
     repo_info:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 10
-      size: 40595
-      stargazers_count: 35
+      open_issues: 5
+      size: 40633
+      stargazers_count: 36
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2025-12-09T11:00:10Z'
+      updated_at: '2025-12-10T16:19:27Z'
     user: BioVisionCenter
   - last_commit:
       author: LDeakin
@@ -379,7 +379,7 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 38
+      open_issues: 39
       size: 1897
       stargazers_count: 36
       topics:
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-09'
-      sha: bb070045cba74fae68657450768e85b3cb4d93a1
+      date: '2025-12-10'
+      sha: 34defb6a498df4e64622ff8641e070dc1289dfd2
       status: SUCCESS
-      url: https://github.com/ome/status/commit/bb070045cba74fae68657450768e85b3cb4d93a1
+      url: https://github.com/ome/status/commit/34defb6a498df4e64622ff8641e070dc1289dfd2
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 0
-      size: 184
+      size: 192
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-09T06:35:04Z'
+      updated_at: '2025-12-10T06:35:17Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
