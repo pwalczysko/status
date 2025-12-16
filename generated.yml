@@ -1,4 +1,4 @@
-generated_at: '2025-12-15T06:37:16.467719Z'
+generated_at: '2025-12-16T06:35:53.056624Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -76,7 +76,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 133
+      open_issues: 135
       size: 14249
       stargazers_count: 147
       topics:
@@ -145,7 +145,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 86
+      open_issues: 87
       size: 1057
       stargazers_count: 218
       topics:
@@ -365,29 +365,29 @@ sections:
     user: zarrs
   - last_commit:
       author: dstansby
-      date: '2025-12-08'
-      sha: e91be2abb83085e0f02939d82081ddf108ffdf08
+      date: '2025-12-15'
+      sha: 35319ef7a53655632412a3f3c85afeb8cc434e0c
       status: SUCCESS
-      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/e91be2abb83085e0f02939d82081ddf108ffdf08
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/commit/35319ef7a53655632412a3f3c85afeb8cc434e0c
     last_release:
-      date: '2025-09-30'
-      tag_name: v1.3
-      url: https://github.com/ome-zarr-models/ome-zarr-models-py/releases/tag/v1.3
+      date: '2025-12-15'
+      tag_name: v1.4
+      url: https://github.com/ome-zarr-models/ome-zarr-models-py/releases/tag/v1.4
     name: ome-zarr-models-py
     repo: ome-zarr-models/ome-zarr-models-py
     repo_info:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 40
-      size: 1897
+      open_issues: 38
+      size: 1917
       stargazers_count: 36
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2025-12-08T19:43:52Z'
+      updated_at: '2025-12-15T15:01:57Z'
     user: ome-zarr-models
   - last_commit:
       author: thewtex
@@ -836,10 +836,10 @@ sections:
     user: ome
   - last_commit:
       author: will-moore
-      date: '2025-11-25'
-      sha: 691a9a60c01bcce1f01f90d528584cb6e68124f9
+      date: '2025-12-15'
+      sha: 218f91f8488a529805307c564fbf03f374e3f607
       status: SUCCESS
-      url: https://github.com/ome/omero-figure/commit/691a9a60c01bcce1f01f90d528584cb6e68124f9
+      url: https://github.com/ome/omero-figure/commit/218f91f8488a529805307c564fbf03f374e3f607
     last_release:
       date: '2025-12-04'
       tag_name: v7.2.1
@@ -849,20 +849,20 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 82
-      size: 8879
+      open_issues: 75
+      size: 8703
       stargazers_count: 19
       topics:
       - omero
       - webapp
-      updated_at: '2025-11-25T11:20:35Z'
+      updated_at: '2025-12-15T15:47:35Z'
     user: ome
   - last_commit:
       author: Tom-TBT
-      date: '2025-12-04'
-      sha: d8259ba596ef6bb0507e94180bfa63c9336d04e4
+      date: '2025-12-15'
+      sha: cc93d28db313b943509ffc4d701cc2640969f31c
       status: SUCCESS
-      url: https://github.com/German-BioImaging/omero-autotag/commit/d8259ba596ef6bb0507e94180bfa63c9336d04e4
+      url: https://github.com/German-BioImaging/omero-autotag/commit/cc93d28db313b943509ffc4d701cc2640969f31c
     last_release:
       date: '2025-01-24'
       tag_name: v4.1.0
@@ -872,12 +872,12 @@ sections:
     repo_info:
       created_at: '2023-06-27T13:49:38Z'
       description: Extensions to OMERO.web to enhance tagging
-      open_issues: 10
-      size: 1076
+      open_issues: 7
+      size: 1079
       stargazers_count: 0
       topics:
       - omero-web
-      updated_at: '2025-12-04T14:06:49Z'
+      updated_at: '2025-12-15T14:34:43Z'
     user: German-BioImaging
   - last_commit:
       author: Tom-TBT
@@ -971,10 +971,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-14'
-      sha: b586bce8b62fc54e4d545175117a1c130de765a9
+      date: '2025-12-15'
+      sha: d99cab9df6a30b873e4b1f07a0189834180ade6c
       status: SUCCESS
-      url: https://github.com/ome/status/commit/b586bce8b62fc54e4d545175117a1c130de765a9
+      url: https://github.com/ome/status/commit/d99cab9df6a30b873e4b1f07a0189834180ade6c
     name: status
     repo: ome/status
     repo_info:
@@ -988,7 +988,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-14T06:31:30Z'
+      updated_at: '2025-12-15T06:37:20Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
