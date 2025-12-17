@@ -1,4 +1,4 @@
-generated_at: '2025-12-16T06:35:53.056624Z'
+generated_at: '2025-12-17T06:35:29.030968Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -78,14 +78,14 @@ sections:
         data in the cloud.
       open_issues: 135
       size: 14249
-      stargazers_count: 147
+      stargazers_count: 148
       topics:
       - bioimaging
       - cloud
       - data-science
       - file-formats
       - spec
-      updated_at: '2025-12-13T07:17:41Z'
+      updated_at: '2025-12-16T17:02:33Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -315,10 +315,10 @@ sections:
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
-      date: '2025-11-25'
-      sha: ec3418565419629b26b0d51974d16b5ee5a16503
+      date: '2025-12-16'
+      sha: cd1be3de10eead005f17d5da04d4ec641ef62167
       status: SUCCESS
-      url: https://github.com/BioVisionCenter/ngio/commit/ec3418565419629b26b0d51974d16b5ee5a16503
+      url: https://github.com/BioVisionCenter/ngio/commit/cd1be3de10eead005f17d5da04d4ec641ef62167
     last_release:
       date: '2025-12-12'
       tag_name: v0.5.0b3
@@ -329,13 +329,13 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: Ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 9
-      size: 40675
-      stargazers_count: 36
+      open_issues: 4
+      size: 40676
+      stargazers_count: 37
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2025-12-10T16:19:27Z'
+      updated_at: '2025-12-16T23:17:25Z'
     user: BioVisionCenter
   - last_commit:
       author: LDeakin
@@ -379,7 +379,7 @@ sections:
       created_at: '2024-11-20T10:56:54Z'
       description: A minimal Python package for reading, writing and validating OME-Zarr
         (meta)data
-      open_issues: 38
+      open_issues: 35
       size: 1917
       stargazers_count: 36
       topics:
@@ -849,7 +849,7 @@ sections:
     repo_info:
       created_at: '2013-09-29T22:16:03Z'
       description: An OMERO.web app for creating Figures from images in OMERO
-      open_issues: 75
+      open_issues: 74
       size: 8703
       stargazers_count: 19
       topics:
@@ -873,7 +873,7 @@ sections:
       created_at: '2023-06-27T13:49:38Z'
       description: Extensions to OMERO.web to enhance tagging
       open_issues: 7
-      size: 1079
+      size: 1091
       stargazers_count: 0
       topics:
       - omero-web
@@ -919,7 +919,7 @@ sections:
     repo_info:
       created_at: '2022-07-27T15:46:33Z'
       description: A plugin for exporting RDF from OMERO
-      open_issues: 26
+      open_issues: 27
       size: 118
       stargazers_count: 15
       topics:
@@ -971,24 +971,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2025-12-15'
-      sha: d99cab9df6a30b873e4b1f07a0189834180ade6c
+      date: '2025-12-16'
+      sha: b69fb49c1a8128c438dc7adad9892bbe505256ee
       status: SUCCESS
-      url: https://github.com/ome/status/commit/d99cab9df6a30b873e4b1f07a0189834180ade6c
+      url: https://github.com/ome/status/commit/b69fb49c1a8128c438dc7adad9892bbe505256ee
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 0
-      size: 211
+      size: 220
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2025-12-15T06:37:20Z'
+      updated_at: '2025-12-16T06:35:57Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
