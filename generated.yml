@@ -1,4 +1,4 @@
-generated_at: '2026-03-21T06:29:21.882323Z'
+generated_at: '2026-03-22T06:36:54.121293Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -155,7 +155,9 @@ sections:
       - zarr
       updated_at: '2026-03-20T05:27:38Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - CodeQL Advanced
+    last_commit:
       author: jburel
       date: '2026-01-14'
       sha: f7116d6f3f523d1e9220524bf9e551f267832167
@@ -971,10 +973,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-20'
-      sha: c9e00c9c80cecc2c5f30e8f9ddfd8896dd74964f
+      date: '2026-03-21'
+      sha: 5d9e6179b607e988fbfb43eedc636665f599cc15
       status: null
-      url: https://github.com/ome/status/commit/c9e00c9c80cecc2c5f30e8f9ddfd8896dd74964f
+      url: https://github.com/ome/status/commit/5d9e6179b607e988fbfb43eedc636665f599cc15
     name: status
     repo: ome/status
     repo_info:
@@ -988,7 +990,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-20T06:58:13Z'
+      updated_at: '2026-03-21T06:47:00Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
