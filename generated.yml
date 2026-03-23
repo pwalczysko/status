@@ -1,4 +1,4 @@
-generated_at: '2026-03-22T06:36:54.121293Z'
+generated_at: '2026-03-23T06:56:38.296363Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -302,7 +302,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 35
+      open_issues: 36
       size: 9933
       stargazers_count: 67
       topics:
@@ -973,24 +973,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-03-21'
-      sha: 5d9e6179b607e988fbfb43eedc636665f599cc15
+      date: '2026-03-22'
+      sha: 3c8201bd1373da45411af13cf0039141596da24b
       status: null
-      url: https://github.com/ome/status/commit/5d9e6179b607e988fbfb43eedc636665f599cc15
+      url: https://github.com/ome/status/commit/3c8201bd1373da45411af13cf0039141596da24b
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 6
-      size: 295
+      size: 305
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-03-21T06:47:00Z'
+      updated_at: '2026-03-22T06:54:35Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
@@ -1015,7 +1015,9 @@ sections:
       - server
       updated_at: '2026-02-19T10:59:45Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - Molecule
+    last_commit:
       author: pwalczysko
       date: '2025-11-18'
       sha: b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
