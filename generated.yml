@@ -1,4 +1,4 @@
-generated_at: '2026-04-18T06:55:08.903632Z'
+generated_at: '2026-04-19T07:05:26.809592Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -151,13 +151,13 @@ sections:
         for storing bioimaging data in the cloud.
       open_issues: 77
       size: 1779
-      stargazers_count: 231
+      stargazers_count: 232
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-04-16T15:28:58Z'
+      updated_at: '2026-04-18T18:10:47Z'
     user: ome
   - last_commit:
       author: jburel
@@ -176,7 +176,9 @@ sections:
       topics: []
       updated_at: '2026-01-14T10:46:05Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - CodeQL Advanced
+    last_commit:
       author: sbesson
       date: '2025-10-29'
       sha: 044d439d22e725f8f25237b7820354824e8ff2f8
@@ -717,7 +719,9 @@ sections:
       - pip
       updated_at: '2026-01-05T13:26:02Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: dominikl
       date: '2025-12-11'
       sha: 68b73035cf2ab21ddd92022b80bda0966547b3c8
@@ -743,7 +747,9 @@ sections:
       - python
       updated_at: '2025-12-11T13:35:00Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - OMERO
+    last_commit:
       author: maartenpaul
       date: '2026-02-17'
       sha: 1d8a2ed19da5a787c18eda2779989f925d7a13a6
@@ -987,24 +993,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-04-17'
-      sha: 11992aac4a9ab55a5a24c578f4e96ba39039c2ae
+      date: '2026-04-18'
+      sha: 6679c9f7593785f8bc1cc68446338a085155b9b8
       status: null
-      url: https://github.com/ome/status/commit/11992aac4a9ab55a5a24c578f4e96ba39039c2ae
+      url: https://github.com/ome/status/commit/6679c9f7593785f8bc1cc68446338a085155b9b8
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 7
-      size: 299
+      size: 309
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-04-17T07:49:35Z'
+      updated_at: '2026-04-18T07:11:03Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
@@ -1073,7 +1079,9 @@ sections:
       - playbook
       updated_at: '2024-08-08T04:25:50Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - Build
+    last_commit:
       author: pwalczysko
       date: '2025-11-24'
       sha: 78d37cf650dc1e7401799f99f58c085c2be5d1c4
