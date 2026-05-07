@@ -1,4 +1,4 @@
-generated_at: '2026-05-06T08:04:04.369220Z'
+generated_at: '2026-05-07T08:11:45.328651Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -61,11 +61,11 @@ sections:
 - name: OME-NGFF
   packages:
   - last_commit:
-      author: joshmoore
-      date: '2026-04-20'
-      sha: 66b6ff184c5e8d6bf97f17e34a9a6df8878df357
+      author: dependabot[bot]
+      date: '2026-05-06'
+      sha: 42a2f9b304d1e04f1d11305ed186f69ae6a8ae4b
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/66b6ff184c5e8d6bf97f17e34a9a6df8878df357
+      url: https://github.com/ome/ngff/commit/42a2f9b304d1e04f1d11305ed186f69ae6a8ae4b
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -76,8 +76,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 123
-      size: 14758
+      open_issues: 122
+      size: 14757
       stargazers_count: 157
       topics:
       - bioimaging
@@ -85,7 +85,7 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-04-28T07:48:17Z'
+      updated_at: '2026-05-06T14:19:46Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -123,7 +123,7 @@ sections:
     repo_info:
       created_at: '2020-04-16T14:53:33Z'
       description: null
-      open_issues: 35
+      open_issues: 36
       size: 468
       stargazers_count: 20
       topics:
@@ -149,7 +149,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 81
+      open_issues: 80
       size: 1785
       stargazers_count: 238
       topics:
@@ -199,10 +199,10 @@ sections:
     user: glencoesoftware
   - last_commit:
       author: will-moore
-      date: '2026-04-21'
-      sha: 05331eeb15d0568f930451e012670f24e3e7abfb
+      date: '2026-05-06'
+      sha: 1e3230b4a6fbe326b696f56aef37abd717a3c6b0
       status: SUCCESS
-      url: https://github.com/ome/ome-ngff-validator/commit/05331eeb15d0568f930451e012670f24e3e7abfb
+      url: https://github.com/ome/ome-ngff-validator/commit/1e3230b4a6fbe326b696f56aef37abd717a3c6b0
     last_release:
       date: '2025-09-05'
       tag_name: '2025-09-05'
@@ -212,12 +212,12 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 20
-      size: 1970
+      open_issues: 19
+      size: 2109
       stargazers_count: 11
       topics:
       - ome-zarr
-      updated_at: '2026-04-21T12:02:43Z'
+      updated_at: '2026-05-06T12:33:21Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -304,7 +304,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 40
+      open_issues: 41
       size: 10239
       stargazers_count: 69
       topics:
@@ -533,13 +533,7 @@ sections:
       - omero
       updated_at: '2026-03-31T08:59:13Z'
     user: ome
-  - last_commit:
-      author: sbesson
-      date: '2026-05-05'
-      sha: c9573f3f94b57105a1948164d2cb38d953055cf2
-      status: SUCCESS
-      url: https://github.com/ome/omero-server/commit/c9573f3f94b57105a1948164d2cb38d953055cf2
-    last_release:
+  - last_release:
       date: '2026-05-05'
       tag_name: v5.7.5
       url: https://github.com/ome/omero-server/releases/tag/v5.7.5
@@ -830,7 +824,7 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 70
+      open_issues: 71
       size: 12051
       stargazers_count: 20
       topics:
@@ -1003,17 +997,17 @@ sections:
 - name: Ansible, Docker and examples
   packages:
   - last_commit:
-      author: pwalczysko
-      date: '2026-02-19'
-      sha: 78b110c303e8e1e4a5ea41bed41d2d883ab5130a
+      author: khaledk2
+      date: '2026-05-07'
+      sha: 361ab86923c035b3d7524883fea89cc3a4acc810
       status: SUCCESS
-      url: https://github.com/ome/ansible-role-omero-server/commit/78b110c303e8e1e4a5ea41bed41d2d883ab5130a
+      url: https://github.com/ome/ansible-role-omero-server/commit/361ab86923c035b3d7524883fea89cc3a4acc810
     name: ansible-role-omero-server
     repo: ome/ansible-role-omero-server
     repo_info:
       created_at: '2017-01-06T16:22:29Z'
       description: Installs and configures OMERO.server
-      open_issues: 12
+      open_issues: 11
       size: 322
       stargazers_count: 4
       topics:
@@ -1021,20 +1015,20 @@ sections:
       - omero
       - role
       - server
-      updated_at: '2026-02-19T10:59:45Z'
+      updated_at: '2026-05-07T07:55:25Z'
     user: ome
   - last_commit:
-      author: pwalczysko
-      date: '2025-11-18'
-      sha: b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
+      author: khaledk2
+      date: '2026-05-07'
+      sha: be9ac509697467b9e82c886f76aac266f3300c61
       status: SUCCESS
-      url: https://github.com/ome/ansible-role-omero-web/commit/b59eccf9e05ecaed6e2462c9f0b563c7e8dd4d9b
+      url: https://github.com/ome/ansible-role-omero-web/commit/be9ac509697467b9e82c886f76aac266f3300c61
     name: ansible-role-omero-web
     repo: ome/ansible-role-omero-web
     repo_info:
       created_at: '2017-03-10T17:50:57Z'
       description: Installs and configures OMERO.web and Nginx
-      open_issues: 5
+      open_issues: 4
       size: 199
       stargazers_count: 1
       topics:
@@ -1042,7 +1036,7 @@ sections:
       - ome
       - omero
       - openmicroscopy
-      updated_at: '2025-11-18T12:38:51Z'
+      updated_at: '2026-05-07T07:55:20Z'
     user: ome
   - last_commit:
       author: dependabot[bot]
