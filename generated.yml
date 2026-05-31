@@ -1,4 +1,4 @@
-generated_at: '2026-05-30T08:13:54.544605Z'
+generated_at: '2026-05-31T08:32:26.638374Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -457,7 +457,9 @@ sections:
       - server
       updated_at: '2026-05-26T05:06:21Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - CodeQL Advanced
+    last_commit:
       author: sbesson
       date: '2026-03-26'
       sha: 100a486f61917a7601b44c343387b7eb35bb534f
@@ -484,7 +486,10 @@ sections:
       - omero
       updated_at: '2026-03-26T10:36:56Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - CodeQL Advanced
+    - Gradle
+    last_commit:
       author: sbesson
       date: '2026-03-31'
       sha: b3ec381de37646f94905d28d409073bf14b3802c
@@ -508,7 +513,10 @@ sections:
       - util
       updated_at: '2026-03-31T07:54:34Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - CodeQL Advanced
+    - Gradle
+    last_commit:
       author: sbesson
       date: '2026-03-31'
       sha: 2f497ed3b7da2fd21c0a0fca2f213b90d4548ca1
@@ -585,7 +593,9 @@ sections:
       - server
       updated_at: '2026-05-07T20:43:22Z'
     user: ome
-  - last_commit:
+  - disabled_workflows:
+    - Build
+    last_commit:
       author: jburel
       date: '2026-02-16'
       sha: 050a7aef07b24c5c0b030ec48d0f2a8b674f8ee9
@@ -975,10 +985,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-05-29'
-      sha: 583ba3370ee807ad67afe6a99309b246ab468326
+      date: '2026-05-30'
+      sha: b970fa9b0d06a110465b17c6c9b47741e4241c46
       status: null
-      url: https://github.com/ome/status/commit/583ba3370ee807ad67afe6a99309b246ab468326
+      url: https://github.com/ome/status/commit/b970fa9b0d06a110465b17c6c9b47741e4241c46
     name: status
     repo: ome/status
     repo_info:
@@ -992,7 +1002,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-05-29T09:55:47Z'
+      updated_at: '2026-05-30T08:29:14Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
