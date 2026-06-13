@@ -1,4 +1,4 @@
-generated_at: '2026-06-12T09:53:51.806959Z'
+generated_at: '2026-06-13T08:44:32.425365Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -85,7 +85,7 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-06-04T19:49:09Z'
+      updated_at: '2026-06-12T10:56:01Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -304,7 +304,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 24
+      open_issues: 23
       size: 10555
       stargazers_count: 71
       topics:
@@ -315,7 +315,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-06-11T15:28:00Z'
+      updated_at: '2026-06-12T09:57:22Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -635,7 +635,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:04:56Z'
       description: Python project containing Ice remoting code for OMERO
-      open_issues: 62
+      open_issues: 63
       size: 12053
       stargazers_count: 28
       topics:
@@ -983,24 +983,24 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-06-11'
-      sha: 60527156dab1c67bef2a7a69bb061c0beac3aecb
+      date: '2026-06-12'
+      sha: 01bc388a37c01b19aa652c5fed02ce45dcbba68f
       status: null
-      url: https://github.com/ome/status/commit/60527156dab1c67bef2a7a69bb061c0beac3aecb
+      url: https://github.com/ome/status/commit/01bc388a37c01b19aa652c5fed02ce45dcbba68f
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 371
+      size: 372
       stargazers_count: 1
       topics:
       - dashboard
       - gh-pages
       - ome
       - status
-      updated_at: '2026-06-11T10:27:22Z'
+      updated_at: '2026-06-12T10:15:17Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
