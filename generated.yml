@@ -1,4 +1,4 @@
-generated_at: '2026-09-17T10:34:47.364696Z'
+generated_at: '2026-09-18T10:11:02.234917Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -20,7 +20,7 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 171
+      open_issues: 172
       size: 280831
       stargazers_count: 429
       topics:
@@ -76,8 +76,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 124
-      size: 16308
+      open_issues: 131
+      size: 16481
       stargazers_count: 171
       topics:
       - bioimaging
@@ -149,7 +149,7 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 79
+      open_issues: 80
       size: 2592
       stargazers_count: 258
       topics:
@@ -170,7 +170,7 @@ sections:
     repo_info:
       created_at: '2025-06-25T13:39:12Z'
       description: OMERO Zarr Pixel Buffer Implementation
-      open_issues: 0
+      open_issues: 1
       size: 664
       stargazers_count: 0
       topics: []
@@ -291,9 +291,9 @@ sections:
   - last_commit:
       author: thewtex
       date: '2026-09-17'
-      sha: 5145a051906391619c50c8ba812442f70a104ec4
+      sha: 6f0ecb41d9467ffdda621516def9bda57d0caec7
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/5145a051906391619c50c8ba812442f70a104ec4
+      url: https://github.com/fideus-labs/ngff-zarr/commit/6f0ecb41d9467ffdda621516def9bda57d0caec7
     last_release:
       date: '2026-09-11'
       tag_name: ts-v0.32.1
@@ -305,8 +305,8 @@ sections:
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
       open_issues: 26
-      size: 15652
-      stargazers_count: 72
+      size: 15692
+      stargazers_count: 73
       topics:
       - dask
       - imaging
@@ -315,7 +315,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-09-17T01:25:39Z'
+      updated_at: '2026-09-17T21:01:35Z'
     user: fideus-labs
   - last_commit:
       author: lorenzocerrone
@@ -335,11 +335,11 @@ sections:
         workflows.
       open_issues: 7
       size: 150907
-      stargazers_count: 51
+      stargazers_count: 52
       topics:
       - ome-ngff
       - ome-zarr
-      updated_at: '2026-09-04T10:53:18Z'
+      updated_at: '2026-09-17T13:45:36Z'
     user: BioVisionCenter
   - last_commit:
       author: LDeakin
@@ -830,7 +830,7 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 67
+      open_issues: 68
       size: 12898
       stargazers_count: 20
       topics:
@@ -975,10 +975,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-09-16'
-      sha: 28599b75b373a51db3c31d25c13ddcb0de8cdad5
+      date: '2026-09-17'
+      sha: 86000a3daec6d0318db2bfae3cae60adfec3d9d6
       status: null
-      url: https://github.com/ome/status/commit/28599b75b373a51db3c31d25c13ddcb0de8cdad5
+      url: https://github.com/ome/status/commit/86000a3daec6d0318db2bfae3cae60adfec3d9d6
     name: status
     repo: ome/status
     repo_info:
@@ -992,7 +992,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-09-16T10:58:14Z'
+      updated_at: '2026-09-17T11:08:20Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
