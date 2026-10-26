@@ -1,4 +1,4 @@
-generated_at: '2026-10-25T10:18:45.168042Z'
+generated_at: '2026-10-26T11:45:31.813423Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -134,11 +134,11 @@ sections:
       updated_at: '2026-08-31T07:44:46Z'
     user: ome
   - last_commit:
-      author: jo-mueller
-      date: '2026-10-25'
-      sha: dfd7273e6e0ebb8a82e58003e35052b0b9021348
+      author: Don-Yin
+      date: '2026-10-26'
+      sha: e9429168b090a20e6988946573828c5e29052433
       status: SUCCESS
-      url: https://github.com/ome/ome-zarr-py/commit/dfd7273e6e0ebb8a82e58003e35052b0b9021348
+      url: https://github.com/ome/ome-zarr-py/commit/e9429168b090a20e6988946573828c5e29052433
     last_release:
       date: '2026-10-07'
       tag_name: v0.21.0
@@ -149,15 +149,15 @@ sections:
       created_at: '2020-05-06T09:40:59Z'
       description: Implementation of next-generation file format (NGFF) specifications
         for storing bioimaging data in the cloud.
-      open_issues: 95
-      size: 2631
+      open_issues: 93
+      size: 2636
       stargazers_count: 262
       topics:
       - ngff
       - ome
       - ome-zarr
       - zarr
-      updated_at: '2026-10-25T09:34:46Z'
+      updated_at: '2026-10-26T10:08:07Z'
     user: ome
   - last_commit:
       author: sbesson
@@ -221,10 +221,10 @@ sections:
     user: ome
   - last_commit:
       author: will-moore
-      date: '2026-05-11'
-      sha: 9ce91901d0773f07571a5a7ecabf9a751cfdea06
+      date: '2026-10-26'
+      sha: cfe2a4a77c67904cfa20e2fd56989361b02a5fe7
       status: FAILURE
-      url: https://github.com/ome/ome2024-ngff-challenge/commit/9ce91901d0773f07571a5a7ecabf9a751cfdea06
+      url: https://github.com/ome/ome2024-ngff-challenge/commit/cfe2a4a77c67904cfa20e2fd56989361b02a5fe7
     last_release:
       date: '2025-04-15'
       tag_name: v1.0.3
@@ -235,13 +235,13 @@ sections:
       created_at: '2024-06-06T15:47:53Z'
       description: Project planning and material repository for the 2024 challenge
         to generate 1 PB of OME-Zarr data
-      open_issues: 16
-      size: 1533
+      open_issues: 14
+      size: 1530
       stargazers_count: 21
       topics:
       - ome-ngff
       - ome-zarr-converter
-      updated_at: '2026-05-11T16:28:40Z'
+      updated_at: '2026-10-26T08:33:00Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -304,7 +304,7 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 27
+      open_issues: 29
       size: 16222
       stargazers_count: 74
       topics:
@@ -333,8 +333,8 @@ sections:
       created_at: '2024-07-08T08:18:08Z'
       description: ngio is a Python library to streamline OME-Zarr image analysis
         workflows.
-      open_issues: 5
-      size: 173754
+      open_issues: 8
+      size: 173772
       stargazers_count: 53
       topics:
       - ome-ngff
@@ -445,8 +445,8 @@ sections:
         strong links to the microscopy community. Funded by private and public research
         grants, OME has been a major force on the international microscopy stage since
         2000.
-      open_issues: 21
-      size: 1985680
+      open_issues: 22
+      size: 1985684
       stargazers_count: 222
       topics:
       - database
@@ -830,8 +830,8 @@ sections:
     repo_info:
       created_at: '2016-12-04T12:13:15Z'
       description: An OMERO.web app allowing to view images
-      open_issues: 70
-      size: 13331
+      open_issues: 71
+      size: 13530
       stargazers_count: 20
       topics:
       - omero
@@ -977,10 +977,10 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-10-24'
-      sha: 611379f4ae2da04898e1ff754897922a1427768f
+      date: '2026-10-25'
+      sha: f57c4ad750407f1d731399a447233cde40fd6987
       status: null
-      url: https://github.com/ome/status/commit/611379f4ae2da04898e1ff754897922a1427768f
+      url: https://github.com/ome/status/commit/f57c4ad750407f1d731399a447233cde40fd6987
     name: status
     repo: ome/status
     repo_info:
@@ -994,7 +994,7 @@ sections:
       - gh-pages
       - ome
       - status
-      updated_at: '2026-10-24T10:25:59Z'
+      updated_at: '2026-10-25T10:53:06Z'
     user: ome
 - name: Ansible, Docker and examples
   packages:
