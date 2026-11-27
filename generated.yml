@@ -1,4 +1,4 @@
-generated_at: '2026-11-26T15:56:37.832203Z'
+generated_at: '2026-11-27T15:45:13.276261Z'
 sections:
 - name: Bio-Formats packages
   packages:
@@ -76,7 +76,7 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 121
+      open_issues: 120
       size: 16784
       stargazers_count: 183
       topics:
@@ -199,10 +199,10 @@ sections:
     user: glencoesoftware
   - last_commit:
       author: will-moore
-      date: '2026-11-09'
-      sha: 5794b0a298f7846eac675e332b7453cc15bec2b0
+      date: '2026-11-27'
+      sha: 4478b938cada8f3faf8e878f06097dcbe447c547
       status: SUCCESS
-      url: https://github.com/ome/ome-ngff-validator/commit/5794b0a298f7846eac675e332b7453cc15bec2b0
+      url: https://github.com/ome/ome-ngff-validator/commit/4478b938cada8f3faf8e878f06097dcbe447c547
     last_release:
       date: '2025-09-05'
       tag_name: '2025-09-05'
@@ -213,11 +213,11 @@ sections:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
       open_issues: 18
-      size: 2675
-      stargazers_count: 12
+      size: 2786
+      stargazers_count: 13
       topics:
       - ome-zarr
-      updated_at: '2026-11-09T11:55:29Z'
+      updated_at: '2026-11-27T10:34:55Z'
     user: ome
   - last_commit:
       author: will-moore
@@ -600,7 +600,7 @@ sections:
     repo_info:
       created_at: '2019-02-18T10:01:04Z'
       description: Gradle project containing insight java client for OMERO
-      open_issues: 131
+      open_issues: 132
       size: 24913
       stargazers_count: 9
       topics:
@@ -653,7 +653,7 @@ sections:
     repo_info:
       created_at: '2019-08-05T15:05:08Z'
       description: Django-based OMERO.web client
-      open_issues: 152
+      open_issues: 153
       size: 26730
       stargazers_count: 24
       topics:
@@ -777,7 +777,7 @@ sections:
     repo_info:
       created_at: '2012-07-02T22:16:36Z'
       description: Core OMERO Scripts
-      open_issues: 17
+      open_issues: 18
       size: 1936
       stargazers_count: 15
       topics:
@@ -977,17 +977,17 @@ sections:
     user: ome
   - last_commit:
       author: github-actions[bot]
-      date: '2026-11-25'
-      sha: b35f7b0988ba1255c71b72ba852232438dd21706
+      date: '2026-11-26'
+      sha: 496660b24f2c7c7f87d2f736e9713712e98213af
       status: null
-      url: https://github.com/ome/status/commit/b35f7b0988ba1255c71b72ba852232438dd21706
+      url: https://github.com/ome/status/commit/496660b24f2c7c7f87d2f736e9713712e98213af
     name: status
     repo: ome/status
     repo_info:
       created_at: '2019-08-22T12:20:48Z'
       description: Status dashboard for the OME project
       open_issues: 8
-      size: 517
+      size: 527
       stargazers_count: 1
       topics:
       - dashboard
